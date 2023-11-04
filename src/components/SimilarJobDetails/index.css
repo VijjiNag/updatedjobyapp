@@ -1,0 +1,50 @@
+.similar-list-card-container {
+  background-color: #2c364c;
+  background-size: cover;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  border-radius: 8px;
+}
+.head-container {
+  display: flex;
+  flex-direction: row;
+}
+.similar-logo {
+  height: 70px;
+  width: 70px;
+}
+.similar-title-container {
+  display: flex;
+  flex-direction: column;
+}
+.similar-title {
+  font-family: roboto;
+  font-weight: bold;
+  color: #ffffff;
+  font-size: 20px;
+  margin-top: 0px;
+  margin-left: 15px;
+}
+.similar-rating-container {
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+}
+.similar-description {
+  font-family: roboto;
+  font-weight: bold;
+  color: #ffffff;
+}
+.similar-desc {
+  font-family: roboto;
+  color: #ffffff;
+  font-size: 20px;
+  line-height: 1.6;
+}
+.similar-location-container {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
